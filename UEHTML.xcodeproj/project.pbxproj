@@ -83,6 +83,182 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		409E6D581F4FC7CE00E3BE49 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		409E6D591F4FC7DD00E3BE49 /* Vicinity */ = {
+			isa = PBXGroup;
+			children = (
+				409E6D5A1F4FC7DD00E3BE49 /* Controller */,
+				409E6D5B1F4FC7DD00E3BE49 /* Model */,
+				409E6D5C1F4FC7DD00E3BE49 /* View */,
+			);
+			path = Vicinity;
+			sourceTree = "<group>";
+		};
+		409E6D5A1F4FC7DD00E3BE49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		409E6D5B1F4FC7DD00E3BE49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		409E6D5C1F4FC7DD00E3BE49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		409E6D5D1F4FC7EC00E3BE49 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				409E6D5E1F4FC7EC00E3BE49 /* Controller */,
+				409E6D5F1F4FC7EC00E3BE49 /* Model */,
+				409E6D601F4FC7EC00E3BE49 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		409E6D5E1F4FC7EC00E3BE49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		409E6D5F1F4FC7EC00E3BE49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		409E6D601F4FC7EC00E3BE49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		409E6D611F4FC7F400E3BE49 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				409E6D621F4FC7F400E3BE49 /* Controller */,
+				409E6D631F4FC7F400E3BE49 /* Model */,
+				409E6D641F4FC7F400E3BE49 /* View */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		409E6D621F4FC7F400E3BE49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		409E6D631F4FC7F400E3BE49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		409E6D641F4FC7F400E3BE49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		409E6D651F4FC7FD00E3BE49 /* ATQ */ = {
+			isa = PBXGroup;
+			children = (
+				409E6D661F4FC7FD00E3BE49 /* Controller */,
+				409E6D671F4FC7FD00E3BE49 /* Model */,
+				409E6D681F4FC7FD00E3BE49 /* View */,
+			);
+			path = ATQ;
+			sourceTree = "<group>";
+		};
+		409E6D661F4FC7FD00E3BE49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		409E6D671F4FC7FD00E3BE49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		409E6D681F4FC7FD00E3BE49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		409E6D691F4FC80400E3BE49 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				409E6D6A1F4FC80400E3BE49 /* Controller */,
+				409E6D6B1F4FC80400E3BE49 /* Model */,
+				409E6D6C1F4FC80400E3BE49 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		409E6D6A1F4FC80400E3BE49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		409E6D6B1F4FC80400E3BE49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		409E6D6C1F4FC80400E3BE49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		409E6D6D1F4FC82300E3BE49 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		409E6D6E1F4FC82B00E3BE49 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
 		40AF12C41F4FBE17005EB03F = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +286,14 @@
 			children = (
 				40AF12D31F4FBE17005EB03F /* AppDelegate.h */,
 				40AF12D41F4FBE17005EB03F /* AppDelegate.m */,
-				40AF12D61F4FBE17005EB03F /* ViewController.h */,
-				40AF12D71F4FBE17005EB03F /* ViewController.m */,
-				40AF12D91F4FBE17005EB03F /* Main.storyboard */,
-				40AF12DC1F4FBE17005EB03F /* Assets.xcassets */,
-				40AF12DE1F4FBE17005EB03F /* LaunchScreen.storyboard */,
-				40AF12E11F4FBE17005EB03F /* Info.plist */,
+				409E6D581F4FC7CE00E3BE49 /* Main */,
+				409E6D591F4FC7DD00E3BE49 /* Vicinity */,
+				409E6D5D1F4FC7EC00E3BE49 /* Message */,
+				409E6D611F4FC7F400E3BE49 /* Publish */,
+				409E6D651F4FC7FD00E3BE49 /* ATQ */,
+				409E6D691F4FC80400E3BE49 /* Me */,
+				409E6D6E1F4FC82B00E3BE49 /* Commons */,
+				409E6D6D1F4FC82300E3BE49 /* Other */,
 				40AF12D01F4FBE17005EB03F /* Supporting Files */,
 			);
 			path = UEHTML;
@@ -125,6 +303,12 @@
 			isa = PBXGroup;
 			children = (
 				40AF12D11F4FBE17005EB03F /* main.m */,
+				40AF12D61F4FBE17005EB03F /* ViewController.h */,
+				40AF12D71F4FBE17005EB03F /* ViewController.m */,
+				40AF12D91F4FBE17005EB03F /* Main.storyboard */,
+				40AF12DC1F4FBE17005EB03F /* Assets.xcassets */,
+				40AF12DE1F4FBE17005EB03F /* LaunchScreen.storyboard */,
+				40AF12E11F4FBE17005EB03F /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -594,6 +778,7 @@
 				40AF12FC1F4FBE17005EB03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40AF12FD1F4FBE17005EB03F /* Build configuration list for PBXNativeTarget "UEHTMLTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +787,7 @@
 				40AF12FF1F4FBE17005EB03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40AF13001F4FBE17005EB03F /* Build configuration list for PBXNativeTarget "UEHTMLUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +796,7 @@
 				40AF13021F4FBE17005EB03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
