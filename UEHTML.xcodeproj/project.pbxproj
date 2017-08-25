@@ -202,6 +202,7 @@
 		40AF12C51F4FBE17005EB03F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ATQ;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = LHKH;
 				TargetAttributes = {
